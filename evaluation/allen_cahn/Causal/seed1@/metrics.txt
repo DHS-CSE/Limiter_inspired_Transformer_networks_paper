@@ -1,0 +1,13 @@
+method: Causal
+seed: 1
+checkpoint: runs\results_causal(allen_cahn)\20261024_173020_PINNFourier_new\checkpoints\seed1\lbfgs_best_loss.pth
+relative_l2: 7.553091645241e-02
+mae: 1.516697648913e-02
+rmse: 5.367569252849e-02
+max_error: 7.647007703781e-01
+relative_l2_t0.5: 3.401812165976e-02
+actual_time_t0.5: 5.000000000000e-01
+relative_l2_t0.75: 7.737400382757e-02
+actual_time_t0.75: 7.500000000000e-01
+relative_l2_t1: 1.260513216257e-01
+actual_time_t1: 1.000000000000e+00

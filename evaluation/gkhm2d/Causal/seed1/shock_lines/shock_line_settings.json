@@ -1,0 +1,31 @@
+{
+  "amplitude": 0.15,
+  "d1": 0.3,
+  "d2": 0.8,
+  "states": [
+    1.0,
+    0.6,
+    0.0
+  ],
+  "shock_band_half_width": 0.03125,
+  "shock_band_curve_points": 4097,
+  "shock_band": "Euclidean distance to domain-clipped exact front; dense polyline approximation; combined is mask union",
+  "shock_band_rmse": "sqrt(mean((prediction-reference)^2)) on masked existing Cartesian grid nodes; not relative L2",
+  "shock_band_missing": "empty band -> NaN RMSE and zero point count; independent of shock detection",
+  "points_per_front": 64,
+  "normal_samples": 401,
+  "max_normal_distance": 0.2,
+  "window_fraction": 0.95,
+  "hx": 0.03125,
+  "hy": 0.03125,
+  "location": "closest downward midpoint crossing on exact local unit normal; absolute offset",
+  "aggregation": "each time separately; arc-length weighting across both fronts",
+  "detection": "detected arc weight / total exact interior arc weight; no distance-accuracy cutoff",
+  "prediction": "bilinear interpolation of existing evaluation grid; no model re-query",
+  "missing": "location statistics conditional on detected samples; missing values remain NaN",
+  "width": "10-90% normal distance, nearest bracketing threshold crossings around selected midpoint; invalid remains NaN",
+  "minimum_width_cells": 4,
+  "width_resolution": "underresolved if width < minimum_width_cells * max(hx,hy); diagnostic heuristic",
+  "width_valid_rate": "valid-width arc weight / total exact interior arc weight",
+  "interpolation_limit": "dense interpolation does not improve underlying grid resolution"
+}

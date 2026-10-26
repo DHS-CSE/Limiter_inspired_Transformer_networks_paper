@@ -1,0 +1,30 @@
+{
+  "python_and_batch_files_byte_identical": true,
+  "notebooks": [
+    {
+      "notebook": "evaluate_allen_cahn_transition_metrics.ipynb",
+      "all_code_cell_asts_identical": true,
+      "all_non_source_cell_fields_identical": true,
+      "outputs_preserved": 252
+    },
+    {
+      "notebook": "evaluate_burgers1d_shock_trajectory.ipynb",
+      "all_code_cell_asts_identical": true,
+      "all_non_source_cell_fields_identical": true,
+      "outputs_preserved": 146
+    },
+    {
+      "notebook": "evaluate_burgers2d_shock_timewise.ipynb",
+      "all_code_cell_asts_identical": true,
+      "all_non_source_cell_fields_identical": true,
+      "outputs_preserved": 119
+    },
+    {
+      "notebook": "evaluate_guckenheimer2d_shock_timewise.ipynb",
+      "all_code_cell_asts_identical": true,
+      "all_non_source_cell_fields_identical": true,
+      "outputs_preserved": 9
+    }
+  ],
+  "training_or_evaluation_rerun": false
+}

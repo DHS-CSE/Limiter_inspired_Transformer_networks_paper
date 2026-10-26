@@ -1,0 +1,6 @@
+method,seed,checkpoint,relative_l2,mean_time_relative_l2_error,std_time_relative_l2_error
+SA,1,runs\results_SA(burgers2d)\20261019_000125_PINN_new\checkpoints\seed1\last_lbfgs.pth,0.1357959806919098,0.14726245190416062,0.07957780444176771
+SA,2,runs\results_SA(burgers2d)\20261019_000125_PINN_new\checkpoints\seed2\last_lbfgs.pth,0.08285397291183472,0.08719246320071675,0.03366326180789625
+SA,3,runs\results_SA(burgers2d)\20261019_000125_PINN_new\checkpoints\seed3\last_lbfgs.pth,0.10371658205986023,0.11193164402530306,0.04552632154960758
+SA,4,runs\results_SA(burgers2d)\20261019_000125_PINN_new\checkpoints\seed4\last_lbfgs.pth,0.10745130479335785,0.11521157693295252,0.046476833780300306
+SA,5,runs\results_SA(burgers2d)\20261019_000125_PINN_new\checkpoints\seed5\last_lbfgs.pth,0.09573923796415329,0.09706100005479086,0.0412058861522561

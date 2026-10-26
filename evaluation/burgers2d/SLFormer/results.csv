@@ -1,0 +1,6 @@
+method,seed,checkpoint,relative_l2,mean_time_relative_l2_error,std_time_relative_l2_error
+SLFormer,1,runs\results_multi(burgers2d)\20260804_113040_Burgers2DSLFormerFixedSharpAnalysis_new\checkpoints\seed1\lbfgs_best_loss.pth,0.07183390855789185,0.07563686308761437,0.03143301577876984
+SLFormer,2,runs\results_multi(burgers2d)\20260804_113040_Burgers2DSLFormerFixedSharpAnalysis_new\checkpoints\seed2\lbfgs_best_loss.pth,0.06768865138292313,0.06967685078935963,0.03244124368400204
+SLFormer,3,runs\results_multi(burgers2d)\20260804_113040_Burgers2DSLFormerFixedSharpAnalysis_new\checkpoints\seed3\lbfgs_best_loss.pth,0.0642610564827919,0.0643206885350602,0.02944197936233513
+SLFormer,4,runs\results_multi(burgers2d)\20260804_113040_Burgers2DSLFormerFixedSharpAnalysis_new\checkpoints\seed4\lbfgs_best_loss.pth,0.06808829307556152,0.07106899186259225,0.03339500725021021
+SLFormer,5,runs\results_multi(burgers2d)\20260804_113040_Burgers2DSLFormerFixedSharpAnalysis_new\checkpoints\seed5\lbfgs_best_loss.pth,0.06840239465236664,0.07108088813367344,0.028848642793251646

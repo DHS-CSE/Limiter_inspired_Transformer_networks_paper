@@ -1,0 +1,13 @@
+method: SLFormer(NoSlope)
+seed: 2
+checkpoint: runs\results_multi_NoSlope(allen_cahn)\20261024_090357_SLFormerFixedSharpAnalysis_NoSlope_new\checkpoints\seed2\lbfgs_best_loss.pth
+relative_l2: 3.360366448760e-02
+mae: 6.827642675489e-03
+rmse: 2.388028427958e-02
+max_error: 3.378511965275e-01
+relative_l2_t0.5: 8.950738236308e-03
+actual_time_t0.5: 5.000000000000e-01
+relative_l2_t0.75: 2.603804506361e-02
+actual_time_t0.75: 7.500000000000e-01
+relative_l2_t1: 7.240577042103e-02
+actual_time_t1: 1.000000000000e+00

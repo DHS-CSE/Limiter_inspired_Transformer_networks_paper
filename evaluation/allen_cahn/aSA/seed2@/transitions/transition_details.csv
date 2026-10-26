@@ -1,0 +1,7 @@
+time,requested_time,front_id,direction,reference_x,prediction_x,matched,location_error,reference_width,prediction_width,width_error,width_relative_error,width_valid,reference_width_underresolved,status,search_radius,reference_width_start,reference_width_end,prediction_width_start,prediction_width_end,match_radius,midpoint_crossings,detected,prediction_width_underresolved,window_underresolved,time_index,branch
+0.5,0.5,0,1,-0.4995848408590413,,False,,,,,,False,False,unmatched,0.4746055988160892,,,,,0.2,0,False,False,False,50,combined
+0.5,0.5,1,-1,0.4995848408590413,0.3804259792863287,True,0.1191588615727126,,,,,False,False,reference_threshold_missing,0.4746055988160892,,,,,0.2,1,True,False,False,50,combined
+0.75,0.75,0,1,-0.4993671513013438,,False,,0.08753830347179059,,,,False,False,unmatched,0.4743987937362766,-0.5362990874477659,-0.4487607839759753,,,0.2,0,False,False,False,75,combined
+0.75,0.75,1,-1,0.4993671513013438,0.3561046468142286,True,0.1432625044871152,0.0875383034717907,,,,False,False,prediction_threshold_missing,0.4743987937362766,0.4487607839759753,0.536299087447766,,,0.2,1,True,False,False,75,combined
+1.0,1.0,0,1,-0.49908553247763,,False,,0.0315208947151403,,,,False,True,unmatched,0.4741312558537485,-0.5146279882331358,-0.4831070935179955,,,0.2,0,False,False,False,100,combined
+1.0,1.0,1,-1,0.49908553247763,0.35864308382845156,True,0.14044244864917843,0.03152089471514019,,,,False,True,prediction_threshold_missing,0.4741312558537485,0.4831070935179955,0.5146279882331357,,,0.2,1,True,False,False,100,combined

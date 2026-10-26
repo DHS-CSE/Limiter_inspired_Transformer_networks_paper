@@ -1,0 +1,13 @@
+method: Conventional_NoFourier
+seed: 1
+checkpoint: runs\results_conventional_NoFourier(allen_cahn)\PINN_Adam_new\checkpoints\seed1\best_loss.pth
+relative_l2: 5.263097286224e-01
+mae: 2.023431211710e-01
+rmse: 3.740195631981e-01
+max_error: 1.415163993835e+00
+relative_l2_t0.5: 3.929529190063e-01
+actual_time_t0.5: 5.000000000000e-01
+relative_l2_t0.75: 6.095291972160e-01
+actual_time_t0.75: 7.500000000000e-01
+relative_l2_t1: 7.057596445084e-01
+actual_time_t1: 1.000000000000e+00

@@ -1,0 +1,25 @@
+{
+  "x_bounds": [
+    0.0,
+    2.0
+  ],
+  "merge_time": 0.5,
+  "search_radius": 0.2,
+  "cell_fraction": 0.95,
+  "minimum_width_cells": 4,
+  "dx": 0.010000109672546387,
+  "dt_max": 0.010000050067901611,
+  "time_start": 0.0,
+  "time_end": 1.0,
+  "aggregation": "trapezoidal time weights per active shock branch; conditional errors plus coverage",
+  "location": "horizontal x distance at fixed t; not Euclidean distance in (x,t)",
+  "width": "physical-state 10-90 percent width, exact width=0; no relative width error",
+  "merge": "one merged branch at t=0.5; pre-merge branch windows remain disjoint",
+  "crossings": "nearest downward midpoint crossing inside fixed reference window; counts retained",
+  "prediction": "unchanged full-grid model evaluation, no smoothing or dense model re-query",
+  "band_half_width": 0.01,
+  "band_distance": "abs(x-x_exact(t)) at fixed t; not space-time distance",
+  "band_region": "union over exact interior shocks; overlaps counted once; boundary-only shocks excluded",
+  "band_aggregation": "sqrt(sum of squared errors / total selected Cartesian grid points across all times)",
+  "band_detection": "independent of predicted shock detection"
+}

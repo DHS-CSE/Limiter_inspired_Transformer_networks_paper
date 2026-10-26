@@ -1,0 +1,2 @@
+method,relative_l2_mean,relative_l2_std,time_relative_l2_mean,time_relative_l2_std
+SLFormer(NoSlope),0.1105479821562767,0.0066977730719599985,0.11517726892934126,0.00692553837040193

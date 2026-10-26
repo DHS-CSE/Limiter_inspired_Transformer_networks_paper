@@ -1,0 +1,2 @@
+method,relative_l2_mean,relative_l2_std,time_relative_l2_mean,time_relative_l2_std
+SLFormer,0.09917281121015549,0.006578704437305422,0.10213119194788092,0.005727444323952823

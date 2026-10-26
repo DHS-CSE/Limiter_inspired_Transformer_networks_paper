@@ -1,0 +1,13 @@
+method: BRDR
+seed: 2
+checkpoint: runs\results_brdr(allen_cahn)\20261024_024240_PINNFourier_new\checkpoints\seed2\lbfgs_best_loss.pth
+relative_l2: 7.825764268637e-02
+mae: 1.294501684606e-02
+rmse: 5.561342462897e-02
+max_error: 6.869388222694e-01
+relative_l2_t0.5: 4.388029500842e-02
+actual_time_t0.5: 5.000000000000e-01
+relative_l2_t0.75: 8.456238359213e-02
+actual_time_t0.75: 7.500000000000e-01
+relative_l2_t1: 1.125698462129e-01
+actual_time_t1: 1.000000000000e+00

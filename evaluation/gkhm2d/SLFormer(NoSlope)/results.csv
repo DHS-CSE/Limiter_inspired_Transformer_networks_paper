@@ -1,0 +1,6 @@
+method,seed,checkpoint,relative_l2,reference,amplitude,d1,d2,mean_time_relative_l2_error,std_time_relative_l2_error
+SLFormer(NoSlope),1,runs\results_multi_NoSlope(gkhm2d_dirichlet)\20261023_031932_Burgers2DSLFormer_NoSlope_new\checkpoints\seed1\lbfgs_best_loss.pth,0.10696758329868317,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.11173942948088926,0.03164938473637442
+SLFormer(NoSlope),2,runs\results_multi_NoSlope(gkhm2d_dirichlet)\20261023_031932_Burgers2DSLFormer_NoSlope_new\checkpoints\seed2\lbfgs_best_loss.pth,0.12177415192127228,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12664450091474197,0.02902841572665285
+SLFormer(NoSlope),3,runs\results_multi_NoSlope(gkhm2d_dirichlet)\20261023_031932_Burgers2DSLFormer_NoSlope_new\checkpoints\seed3\lbfgs_best_loss.pth,0.10851868242025375,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.11293760380324196,0.029222681471053457
+SLFormer(NoSlope),4,runs\results_multi_NoSlope(gkhm2d_dirichlet)\20261023_031932_Burgers2DSLFormer_NoSlope_new\checkpoints\seed4\lbfgs_best_loss.pth,0.11095720529556274,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.11594024651190814,0.03956784359296627
+SLFormer(NoSlope),5,runs\results_multi_NoSlope(gkhm2d_dirichlet)\20261023_031932_Burgers2DSLFormer_NoSlope_new\checkpoints\seed5\lbfgs_best_loss.pth,0.10452228784561157,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.10862456393592498,0.030963923971797064

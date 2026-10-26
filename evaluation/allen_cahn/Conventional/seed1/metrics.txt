@@ -1,0 +1,13 @@
+method: Conventional
+seed: 1
+checkpoint: runs\results_conventional(allen_cahn)\20260803_180654_PINNFourier_new\checkpoints\seed1\lbfgs_best_loss.pt
+relative_l2: 1.510744988918e-01
+mae: 2.848890982568e-02
+rmse: 1.073603779078e-01
+max_error: 1.021391630173e+00
+relative_l2_t0.5: 1.122432723641e-01
+actual_time_t0.5: 5.000000000000e-01
+relative_l2_t0.75: 1.595961600542e-01
+actual_time_t0.75: 7.500000000000e-01
+relative_l2_t1: 1.929037868977e-01
+actual_time_t1: 1.000000000000e+00

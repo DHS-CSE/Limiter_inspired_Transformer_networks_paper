@@ -1,0 +1,13 @@
+method: NTK
+seed: 1
+checkpoint: runs\results_NTK(allen_cahn)\20261020_005947_PINNFourier_new\checkpoints\seed1\lbfgs_best_loss.pt
+relative_l2: 7.809247076511e-02
+mae: 1.636695861816e-02
+rmse: 5.549604818225e-02
+max_error: 6.050635576248e-01
+relative_l2_t0.5: 2.595012634993e-02
+actual_time_t0.5: 5.000000000000e-01
+relative_l2_t0.75: 6.733867526054e-02
+actual_time_t0.75: 7.500000000000e-01
+relative_l2_t1: 1.576293110847e-01
+actual_time_t1: 1.000000000000e+00

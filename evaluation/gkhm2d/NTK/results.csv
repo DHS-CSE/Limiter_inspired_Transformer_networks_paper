@@ -1,0 +1,6 @@
+method,seed,checkpoint,relative_l2,reference,amplitude,d1,d2,mean_time_relative_l2_error,std_time_relative_l2_error
+NTK,1,runs\results_NTK(gkhm2d_dirichlet)\20261018_185456_PINN_new\checkpoints\seed1\last_lbfgs.pth,0.13765908777713776,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.13724766890792287,0.02310308652584164
+NTK,2,runs\results_NTK(gkhm2d_dirichlet)\20261018_185456_PINN_new\checkpoints\seed2\last_lbfgs.pth,0.12353459745645523,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12444182748303693,0.016904032768641913
+NTK,3,runs\results_NTK(gkhm2d_dirichlet)\20261018_185456_PINN_new\checkpoints\seed3\last_lbfgs.pth,0.13038985431194305,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12734155751326504,0.014708879787216347
+NTK,4,runs\results_NTK(gkhm2d_dirichlet)\20261018_185456_PINN_new\checkpoints\seed4\last_lbfgs.pth,0.10522980988025665,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.10724248035865672,0.012524532047246443
+NTK,5,runs\results_NTK(gkhm2d_dirichlet)\20261018_185456_PINN_new\checkpoints\seed5\last_lbfgs.pth,0.15787063539028168,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.15568977068452275,0.023710137316112635

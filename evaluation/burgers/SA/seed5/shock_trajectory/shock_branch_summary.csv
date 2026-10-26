@@ -1,0 +1,4 @@
+branch,eligible_samples,boundary_or_outside_samples,detected_samples,width_valid_samples,trajectory_time_measure,detection_rate,width_valid_rate,location_mae,location_rmse,location_max,width_mean,width_max,multiple_crossing_rate,width_underresolved_rate,window_underresolved_rate
+incoming,49,1,0,0,0.4899999899789691,0.0,0.0,,,,,,0.0,,0.10204083133785272
+initial,50,0,9,0,0.4949999898672104,0.17171716951263297,0.0,0.1957530771103778,0.1957532788808888,0.19619205550474117,,,0.0,,0.08080809570772193
+merged,51,0,51,51,0.5050000101327896,1.0,1.0,0.043709904650662657,0.043717626526208565,0.048556091650378,0.4259618232710797,0.8208410435079952,0.0,0.009900980458027458,0.0

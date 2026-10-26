@@ -1,0 +1,13 @@
+method: SLFormer_Single
+seed: 4
+checkpoint: runs\results_single(allen_cahn)\20260803_003013_SLSingleFormerFixedSharpAnalysis_new\checkpoints\seed4\lbfgs_best_loss.pt
+relative_l2: 8.953894376755e-01
+mae: 5.170410871506e-01
+rmse: 6.363042593002e-01
+max_error: 2.962532043457e+00
+relative_l2_t0.5: 9.519050717354e-01
+actual_time_t0.5: 5.000000000000e-01
+relative_l2_t0.75: 8.973672986031e-01
+actual_time_t0.75: 7.500000000000e-01
+relative_l2_t1: 7.856732606888e-01
+actual_time_t1: 1.000000000000e+00

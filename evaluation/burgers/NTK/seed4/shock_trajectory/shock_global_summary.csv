@@ -1,0 +1,2 @@
+eligible_samples,boundary_or_outside_samples,detected_samples,width_valid_samples,trajectory_time_measure,detection_rate,width_valid_rate,location_mae,location_rmse,location_max,width_mean,width_max,multiple_crossing_rate,width_underresolved_rate,window_underresolved_rate
+150,1,123,53,1.489999989978969,0.8187919478902239,0.3523490090343647,0.053130989160356565,0.06455295101156691,0.09866317042881989,0.3619403109077143,0.7654339161922383,0.0,0.2190476058359324,0.06040269362067228

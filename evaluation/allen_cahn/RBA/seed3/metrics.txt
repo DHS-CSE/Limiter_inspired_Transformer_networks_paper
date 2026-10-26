@@ -1,0 +1,13 @@
+method: RBA
+seed: 3
+checkpoint: runs\results_rba(allen_cahn)\20260804_013107_PINNFourier_new\checkpoints\seed3\lbfgs_best_loss.pt
+relative_l2: 7.694487273693e-02
+mae: 1.207845378667e-02
+rmse: 5.468050763011e-02
+max_error: 5.131468772888e-01
+relative_l2_t0.5: 2.400175482035e-02
+actual_time_t0.5: 5.000000000000e-01
+relative_l2_t0.75: 9.434960037470e-02
+actual_time_t0.75: 7.500000000000e-01
+relative_l2_t1: 1.047275438905e-01
+actual_time_t1: 1.000000000000e+00

@@ -1,0 +1,21 @@
+{
+  "shock_band_half_width": 0.05,
+  "shock_band": "periodic distance to reference zero crossings; union of bands; shared endpoint counted once",
+  "shock_band_rmse": "sqrt(mean((prediction-reference)^2)) on existing spatial grid; independent of detection",
+  "aggregation": "each selected time separately; equal weight per reference crossing",
+  "matching": "maximum-cardinality one-to-one matching, then minimum periodic distance, same crossing direction",
+  "multiple_crossing_rate": "fraction of reference windows with more than one admissible same-direction prediction crossing",
+  "width_mean": "mean prediction 10-90 percent width over reference/prediction width-valid matches, not width error",
+  "bounds": [
+    -1.0,
+    1.0
+  ],
+  "low": -1.0,
+  "high": 1.0,
+  "match_radius_fraction": 0.1,
+  "window_fraction": 0.95,
+  "minimum_cells": 4,
+  "spatial_grid_spacing": 0.010000050067901611,
+  "interpolation": "piecewise linear; no smoothing",
+  "periodic_endpoint": "right endpoint dropped for crossings; endpoint gap reported"
+}
