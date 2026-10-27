@@ -2,7 +2,7 @@ from __future__ import annotations
 import argparse
 import math
 import torch
-SUPPORTED_PDES = {'allen_cahn', 'burgers_1d', 'burgers_2d', 'guckenheimer_periodic_2d'}
+SUPPORTED_PDES = {'allen_cahn', 'burgers_1d', 'burgers_2d', 'guckenheimer_dirichlet_2d'}
 
 def add_sa_ntk_arguments(parser):
     method = parser.add_mutually_exclusive_group()
