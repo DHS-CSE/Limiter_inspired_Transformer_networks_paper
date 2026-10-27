@@ -5,3 +5,4 @@ __pycache__/
 
 runs/**/analysis/
 runs/**/checkpoints/
+runs/**/manifest/
