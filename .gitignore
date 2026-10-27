@@ -1,6 +1,7 @@
 __pycache__/
 *.py[cod]
-runs/
 .ipynb_checkpoints/
-*.log
 .DS_Store
+
+runs/**/analysis/
+runs/**/checkpoints/
