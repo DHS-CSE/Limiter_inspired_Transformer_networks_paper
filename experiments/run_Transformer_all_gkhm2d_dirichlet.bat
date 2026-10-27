@@ -10,7 +10,7 @@
  --embed_dim 64 ^
  --num_heads 1 ^
  --depth 2 ^
- --activation SiLU ^
+ --activation Tanh ^
  --h_x 0.05 ^
  --h_y 0.05 ^
  --h_t 0.05 ^
@@ -51,7 +51,7 @@
  --embed_dim 64 ^
  --num_heads 1 ^
  --depth 2 ^
- --activation SiLU ^
+ --activation Tanh ^
  --h_x 0.05 ^
  --h_y 0.05 ^
  --h_t 0.05 ^
@@ -92,7 +92,7 @@ python main.py ^
 --embed_dim 64 ^
 --num_heads 1 ^
 --depth 2 ^
---activation SiLU ^
+--activation Tanh ^
 --h_x 0.05 ^
 --h_y 0.05 ^
 --h_t 0.05 ^
@@ -133,7 +133,7 @@ python main.py ^
 --embed_dim 64 ^
 --num_heads 1 ^
 --depth 2 ^
---activation SiLU ^
+--activation Tanh ^
 --h_x 0.05 ^
 --h_y 0.05 ^
 --h_t 0.05 ^

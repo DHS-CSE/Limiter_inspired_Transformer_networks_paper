@@ -1,6 +1,6 @@
 method,seed,checkpoint,relative_l2,reference,amplitude,d1,d2,mean_time_relative_l2_error,std_time_relative_l2_error
-brdr,1,runs\results_brdr(gkhm2d_dirichlet)\20261019_201947_PINN_new\checkpoints\seed1\lbfgs_best_loss.pth,0.1417141705751419,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.14259632676839828,0.01994281012125224
-brdr,2,runs\results_brdr(gkhm2d_dirichlet)\20261019_201947_PINN_new\checkpoints\seed2\lbfgs_best_loss.pth,0.14591240882873535,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.14422057349892223,0.01068102030105794
-brdr,3,runs\results_brdr(gkhm2d_dirichlet)\20261019_201947_PINN_new\checkpoints\seed3\lbfgs_best_loss.pth,0.13391441106796265,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12960443382754044,0.01668729154690212
-brdr,4,runs\results_brdr(gkhm2d_dirichlet)\20261019_201947_PINN_new\checkpoints\seed4\lbfgs_best_loss.pth,0.130857452750206,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.13047930379124248,0.013247090338984541
-brdr,5,runs\results_brdr(gkhm2d_dirichlet)\20261019_201947_PINN_new\checkpoints\seed5\lbfgs_best_loss.pth,0.12653878331184387,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12610465419643066,0.016457251282946006
+brdr,1,runs\gkhm2d\results_brdr(gkhm2d_dirichlet)\20261019_201947_PINN_new\checkpoints\seed1\lbfgs_best_loss.pth,0.1417141705751419,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.14259632676839828,0.01994281012125224
+brdr,2,runs\gkhm2d\results_brdr(gkhm2d_dirichlet)\20261019_201947_PINN_new\checkpoints\seed2\lbfgs_best_loss.pth,0.14591240882873535,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.14422057349892223,0.01068102030105794
+brdr,3,runs\gkhm2d\results_brdr(gkhm2d_dirichlet)\20261019_201947_PINN_new\checkpoints\seed3\lbfgs_best_loss.pth,0.13391441106796265,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12960443382754044,0.01668729154690212
+brdr,4,runs\gkhm2d\results_brdr(gkhm2d_dirichlet)\20261019_201947_PINN_new\checkpoints\seed4\lbfgs_best_loss.pth,0.130857452750206,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.13047930379124248,0.013247090338984541
+brdr,5,runs\gkhm2d\results_brdr(gkhm2d_dirichlet)\20261019_201947_PINN_new\checkpoints\seed5\lbfgs_best_loss.pth,0.12653878331184387,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12610465419643066,0.016457251282946006

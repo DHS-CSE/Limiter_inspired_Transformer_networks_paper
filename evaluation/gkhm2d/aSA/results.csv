@@ -1,6 +1,6 @@
 method,seed,checkpoint,relative_l2,reference,amplitude,d1,d2,mean_time_relative_l2_error,std_time_relative_l2_error
-aSA,1,runs\results_aSA(gkhm2d_dirichlet)\20261018_192723_PINN_new\checkpoints\seed1\last_lbfgs.pth,0.12400061637163162,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12324875286396812,0.010966055352583527
-aSA,2,runs\results_aSA(gkhm2d_dirichlet)\20261018_192723_PINN_new\checkpoints\seed2\last_lbfgs.pth,0.16483710706233978,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.15890987743349635,0.02133122583468119
-aSA,3,runs\results_aSA(gkhm2d_dirichlet)\20261018_192723_PINN_new\checkpoints\seed3\last_lbfgs.pth,0.11771446466445923,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12179722549284205,0.030242465166026543
-aSA,4,runs\results_aSA(gkhm2d_dirichlet)\20261018_192723_PINN_new\checkpoints\seed4\last_lbfgs.pth,0.1287268102169037,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12699178211829243,0.00923051971145575
-aSA,5,runs\results_aSA(gkhm2d_dirichlet)\20261018_192723_PINN_new\checkpoints\seed5\last_lbfgs.pth,0.14106599986553192,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.13967602393206427,0.008483576718905768
+aSA,1,runs\gkhm2d\results_aSA(gkhm2d_dirichlet)\20261018_192723_PINN_new\checkpoints\seed1\last_lbfgs.pth,0.12400061637163162,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12324875286396812,0.010966055352583527
+aSA,2,runs\gkhm2d\results_aSA(gkhm2d_dirichlet)\20261018_192723_PINN_new\checkpoints\seed2\last_lbfgs.pth,0.16483710706233978,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.15890987743349635,0.02133122583468119
+aSA,3,runs\gkhm2d\results_aSA(gkhm2d_dirichlet)\20261018_192723_PINN_new\checkpoints\seed3\last_lbfgs.pth,0.11771446466445923,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12179722549284205,0.030242465166026543
+aSA,4,runs\gkhm2d\results_aSA(gkhm2d_dirichlet)\20261018_192723_PINN_new\checkpoints\seed4\last_lbfgs.pth,0.1287268102169037,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.12699178211829243,0.00923051971145575
+aSA,5,runs\gkhm2d\results_aSA(gkhm2d_dirichlet)\20261018_192723_PINN_new\checkpoints\seed5\last_lbfgs.pth,0.14106599986553192,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.13967602393206427,0.008483576718905768

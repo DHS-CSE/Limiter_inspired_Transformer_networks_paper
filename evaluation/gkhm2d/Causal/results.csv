@@ -1,6 +1,6 @@
 method,seed,checkpoint,relative_l2,reference,amplitude,d1,d2,mean_time_relative_l2_error,std_time_relative_l2_error
-Causal,1,runs\results_causal(gkhm2d_dirichlet)\20261023_180638_PINN_new\checkpoints\seed1\lbfgs_best_loss.pth,0.1461264044046402,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.1455130366718068,0.008723606695506318
-Causal,2,runs\results_causal(gkhm2d_dirichlet)\20261023_180638_PINN_new\checkpoints\seed2\lbfgs_best_loss.pth,0.14549949765205383,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.14014865852454128,0.017209900575264243
-Causal,3,runs\results_causal(gkhm2d_dirichlet)\20261023_180638_PINN_new\checkpoints\seed3\lbfgs_best_loss.pth,0.1507059782743454,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.14907045662403107,0.009014471698962356
-Causal,4,runs\results_causal(gkhm2d_dirichlet)\20261023_180638_PINN_new\checkpoints\seed4\lbfgs_best_loss.pth,0.13526634871959686,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.13837802804568233,0.015508295600485231
-Causal,5,runs\results_causal(gkhm2d_dirichlet)\20261023_180638_PINN_new\checkpoints\seed5\lbfgs_best_loss.pth,0.1559022068977356,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.15658502280712128,0.01151339919503567
+Causal,1,runs\gkhm2d\results_causal(gkhm2d_dirichlet)\20261023_180638_PINN_new\checkpoints\seed1\lbfgs_best_loss.pth,0.1461264044046402,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.1455130366718068,0.008723606695506318
+Causal,2,runs\gkhm2d\results_causal(gkhm2d_dirichlet)\20261023_180638_PINN_new\checkpoints\seed2\lbfgs_best_loss.pth,0.14549949765205383,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.14014865852454128,0.017209900575264243
+Causal,3,runs\gkhm2d\results_causal(gkhm2d_dirichlet)\20261023_180638_PINN_new\checkpoints\seed3\lbfgs_best_loss.pth,0.1507059782743454,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.14907045662403107,0.009014471698962356
+Causal,4,runs\gkhm2d\results_causal(gkhm2d_dirichlet)\20261023_180638_PINN_new\checkpoints\seed4\lbfgs_best_loss.pth,0.13526634871959686,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.13837802804568233,0.015508295600485231
+Causal,5,runs\gkhm2d\results_causal(gkhm2d_dirichlet)\20261023_180638_PINN_new\checkpoints\seed5\lbfgs_best_loss.pth,0.1559022068977356,guckenheimer2d_exact_solution,0.15,0.3,0.8,0.15658502280712128,0.01151339919503567
