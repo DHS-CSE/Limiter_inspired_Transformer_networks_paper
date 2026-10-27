@@ -41,6 +41,82 @@ experiments\run_PINN_all_burgers.bat
 
 Model configurations, optimizer settings, loss weights, training lengths, and seeds are specified in the batch files. Check each command's `--seeds` setting before reproducing five-seed statistics.
 
+## Main command-line arguments
+
+Use the supplied batch files for the experiment configurations. Parser defaults are convenience values and do not replace the settings in those scripts. To list the available arguments, run:
+
+```bat
+python main.py --help
+```
+
+### Problem and model
+
+| Argument | Purpose |
+| --- | --- |
+| `--pde` | Select `burgers_1d`, `allen_cahn`, `burgers_2d`, or `guckenheimer_dirichlet_2d`. |
+| `--model_name` | Registered model name. Copy the exact name from the corresponding batch file; do not rely on the parser default. |
+| `--layers` | Layer widths for PINN models, including the input and output widths; for example, `2 50 50 50 50 50 1` for a standard Burgers 1D PINN. Follow the batch file for models with embeddings. |
+| `--activation` | Activation selection for models that expose this argument. Use the experiment's model configuration. |
+| `--embed_dim`, `--num_heads`, `--depth` | Embedding dimension, attention head count, and depth for the relevant Transformer models. |
+| `--fourier_scale` | Fourier feature scale for models that use Fourier features. |
+| `--sharp_const` | Modulation-strength setting passed to the relevant models. |
+| `--no_sharp_const` | Pass `None` instead of the numerical sharp constant. This flag is not the baseline embedding ablation; select the baseline model specified in the batch file for that comparison. |
+
+Model-specific arguments are interpreted by the selected model. Match these settings when loading checkpoints, even if `load_state_dict` succeeds.
+
+### Training and evaluation grids
+
+| Argument | Purpose |
+| --- | --- |
+| `--h_x`, `--h_y`, `--h_t` | Training-grid spacings. `h_y` is used for the two-dimensional problems. |
+| `--eval_h_x_learning`, `--eval_h_y_learning`, `--eval_h_t_learning` | Grid spacings used for reference-error monitoring during training. |
+| `--eval_h_x`, `--eval_h_y`, `--eval_h_t` | Grid spacings used for final evaluation in the trainers. The evaluation notebooks have their own grid settings. |
+| `--point_type` | `uniform` by default. The random-data branch in this entry point is implemented for Burgers 1D; it is not a general random-sampling switch for all PDEs. |
+| `--n_domain_x` | Passed as `num_random_x_points` to the Burgers 1D random-data generator. |
+| `--guckenheimer_amplitude`, `--guckenheimer_d1`, `--guckenheimer_d2`, `--guckenheimer_t_final` | Curved-front geometry and final time for the Guckenheimer benchmark. Keep the reference and notebook settings consistent with training. |
+
+The benchmark references are prepared internally. The Guckenheimer Dirichlet branch requires `--reference_path` to be omitted. The `--batch_size` argument is a data-generation argument, not a general minibatch-training control.
+
+### Optimization, loss weights, and outputs
+
+| Argument | Purpose |
+| --- | --- |
+| `--optimizer`, `--lr`, `--weight_decay` | Main network optimizer, learning rate, and weight decay. |
+| `--scheduler` | Learning-rate schedule: `fixed`, `none`, `rba`, or `brdr`. Selecting a schedule does not activate a weighting method. |
+| `--num_epochs` | Main optimizer-stage epoch budget. Early stopping or causal-stage completion can end training earlier. |
+| `--lbfgs_epochs` | Number of outer L-BFGS refinement steps; each step may evaluate the closure multiple times. Set to `0` to skip refinement. |
+| `--target_loss`, `--early_stop_patience`, `--min_epochs` | Loss-based stopping controls for the applicable trainer branches. A nonpositive target disables target-loss stopping; zero patience disables patience-based stopping. Causal runs also use their stage-specific stopping rules. |
+| `--lambda_pde`, `--lambda_bc`, `--lambda_ini` | Multipliers for the PDE, boundary, and initial losses. |
+| `--lambda_bc_grad` | Boundary-derivative loss multiplier for Allen–Cahn. |
+| `--lambda_ini1`, `--lambda_ini2` | Burgers 1D PINN initial-loss multipliers for the regions `x <= 0.5` and `x > 0.5`; each falls back to `lambda_ini` if omitted. |
+| `--seeds` | Space-separated initialization seeds, for example `1 2 3 4 5`. The parser default is a single seed. |
+| `--device` | Execution device, such as `cuda` or `cpu`. |
+| `--deterministic` | Request the seed helper's deterministic backend settings. This option alone does not promise bitwise agreement across environments. |
+| `--save_dir` | Parent output directory; the entry point creates a timestamped run folder underneath it. |
+| `--log_every`, `--record_every`, `--eval_every` | Console-reporting, history-recording, and evaluation intervals. |
+| `--analysis_every` | Analysis-saving interval. Diagnostic files can be large. |
+| `--no_save_plots` | Disable the trainer's optional final plot saving. |
+| `--compute_ntk_ratio` / `--no-compute_ntk_ratio` | Enable or disable NTK-ratio diagnostics in trainers that support them. Disabled by default; independent of NTK loss weighting. |
+
+### Adaptive weighting methods
+
+Select at most one method flag. With none enabled, the adaptive weighting objects are disabled.
+
+| Method | Flag | Main settings |
+| --- | --- | --- |
+| SA | `--use_sa` | `--sa_weight_mode`, `--sa_optimizer`, `--sa_lr`, `--sa_weight_decay`, `--sa_init_*` |
+| NTK | `--use_ntk` | `--ntk_update_every`, `--ntk_probes`, `--ntk_seed` |
+| alphaSA | `--use_asa` | Both SA and NTK settings; do not combine `--use_sa` and `--use_ntk`. |
+| Causal | `--use_causal` | `--causal_epsilon_schedule`, `--causal_stage_epochs`, `--causal_delta`, `--causal_normalization`, `--causal_include_initial` |
+| RBA | `--use_rba` | `--rba_gamma`, `--rba_eta`, `--rba_offset` |
+| BRDR | `--use_brdr` | `--brdr_beta_residual`, `--brdr_beta_weight`; follow the batch file for the remaining settings. |
+
+For SA and alphaSA, `--sa_weight_mode linear` uses `mean(w * r**2)`, while `square` uses `mean(w**2 * r**2)`. Allen–Cahn uses `linear` in the reported setup; the other PDE examples use `square`. The parser default is `square`, so specify `linear` explicitly where required. Initial point weights are set with `--sa_init_pde`, `--sa_init_bc`, `--sa_init_bc_grad`, and `--sa_init_ini`. These point weights are separate from the fixed `--lambda_*` multipliers. SA and alphaSA require the fixed uniform-grid path in this implementation.
+
+`--ntk_update_every` sets the update interval. `--ntk_probes` sets the number of randomized trace probes. A value of `0` selects the implementation's residual-count-dependent probe rule; it does not request an exact NTK trace.
+
+For Causal PINNs, explicitly supply the intended `--causal_epsilon_schedule`, even for a fixed parameter (for example, `--causal_epsilon_schedule 1`). The parser supplies a nonempty default schedule, so changing `--causal_epsilon` alone does not replace that schedule. `--causal_stage_epochs` caps each stage, while `--num_epochs` caps the overall main optimizer stage. Use `--no-causal_include_initial` to exclude the initial-condition loss from causal weight computation; this does not remove the initial-condition training loss. `paper` and `separate` are implementation option names; use the configuration specified in the experiment script.
+
 ## Saved training results
 
 Training results are organized under:
@@ -60,6 +136,10 @@ Each method directory contains timestamped training runs. Checkpoints are stored
 ```
 
 The evaluation notebooks select run folders using the `*_new` convention. Add `_new` to the intended training-run folder name before evaluation. If several folders match, check the notebook's selection logic to ensure that the intended run is selected.
+
+## Checkpoint availability
+
+Pretrained checkpoints and large analysis tensors are not included in the repository. Train the models using the supplied scripts before rerunning checkpoint-dependent evaluation cells. Saved notebook outputs remain available for inspection.
 
 ## Evaluation
 
@@ -87,7 +167,7 @@ The notebooks retain their saved outputs for inspection. These outputs show the 
 
 ## Evaluation outputs
 
-Evaluation results are saved under `evaluation/<PDE>/`. Depending on the notebook, outputs include:
+Evaluation output locations are set in each notebook. Depending on the notebook, outputs include:
 
 - Per-seed and aggregated relative solution errors.
 - Shock/front-location RMSE and detection rates.
