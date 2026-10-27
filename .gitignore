@@ -3,8 +3,6 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 
-git rm -r --cached -- ":(glob)runs/**/metrics/**"
-
 runs/**/analysis/
 runs/**/checkpoints/
 runs/**/metrics/
