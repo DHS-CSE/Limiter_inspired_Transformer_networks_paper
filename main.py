@@ -27,8 +27,7 @@ from losses.burgers2d import calculate_loss_burgers2d_ghost_sharp_analysis
 from trainer.burgers2d_trainer import Burgers2DTrainer
 from losses.guckenheimer2d_dirichlet import calculate_loss_guckenheimer2d_dirichlet_ghost_sharp_analysis
 from trainer.guckenheimer2d_dirichlet_trainer import Guckenheimer2DDirichletTrainer
-from methods.sa_ntk import add_sa_ntk_arguments, validate_sa_ntk_args, require_sa_ntk_loss, SUPPORTED_PDES
-SUPPORTED_PDES.add('guckenheimer_dirichlet_2d')
+from methods.sa_ntk import add_sa_ntk_arguments, validate_sa_ntk_args, require_sa_ntk_loss
 
 def parse_args():
     parser = argparse.ArgumentParser()
