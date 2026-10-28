@@ -164,7 +164,7 @@ python main.py ^
 --sharp_const 1.0 ^
 --num_epochs 15000 ^
 --lbfgs_epochs 200 ^
---seeds 2 3 4 5 ^
+--seeds 1 2 3 4 5 ^
 --save_dir "runs/burgers/results_multi_superbee(burgers)"
 
 if errorlevel 1 (
