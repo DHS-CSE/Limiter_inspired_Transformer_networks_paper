@@ -1,6 +1,6 @@
 method: BRDR
 seed: 5
-checkpoint: runs\results_brdr(allen_cahn)\20261024_024240_PINNFourier_new\checkpoints\seed5\lbfgs_best_loss.pth
+checkpoint: runs\allen_cahn\results_brdr(allen_cahn)\20261024_024240_PINNFourier_new\checkpoints\seed5\lbfgs_best_loss.pth
 relative_l2: 8.307781815529e-02
 mae: 1.617477275431e-02
 rmse: 5.903886258602e-02

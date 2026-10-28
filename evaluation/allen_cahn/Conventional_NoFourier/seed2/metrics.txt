@@ -1,6 +1,6 @@
 method: Conventional_NoFourier
 seed: 2
-checkpoint: runs\results_conventional_NoFourier(allen_cahn)\PINN_Adam_new\checkpoints\seed2\best_loss.pth
+checkpoint: runs\allen_cahn\results_conventional_NoFourier(allen_cahn)\PINN_Adam_new\checkpoints\seed2\best_loss.pth
 relative_l2: 5.205160975456e-01
 mae: 1.981280446053e-01
 rmse: 3.699022829533e-01

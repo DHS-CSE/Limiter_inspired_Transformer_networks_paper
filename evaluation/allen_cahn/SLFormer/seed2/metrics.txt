@@ -1,6 +1,6 @@
 method: SLFormer
 seed: 2
-checkpoint: runs\results_multi(allen_cahn)\20260803_060221_SLFormerFixedSharpAnalysis_new\checkpoints\seed2\lbfgs_best_loss.pt
+checkpoint: runs\allen_cahn\results_multi(allen_cahn)\20260803_060221_SLFormerFixedSharpAnalysis_new\checkpoints\seed2\lbfgs_best_loss.pth
 relative_l2: 6.916478276253e-02
 mae: 1.438443362713e-02
 rmse: 4.915162548423e-02

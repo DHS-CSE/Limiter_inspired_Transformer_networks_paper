@@ -1,0 +1,13 @@
+﻿row,column,method,seed,kind,source
+1,1,Conventional,5,reference,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\Conventional\seed5@\reference_surf.png
+1,2,Conventional,5,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\Conventional\seed5@\prediction_surf.png
+1,3,NTK,1,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\NTK\seed1@\prediction_surf.png
+1,4,SA,2,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\SA\seed2@\prediction_surf.png
+2,1,Causal,1,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\Causal\seed1@\prediction_surf.png
+2,2,RBA,5,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\RBA\seed5@\prediction_surf.png
+2,3,BRDR,5,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\BRDR\seed5@\prediction_surf.png
+2,4,aSA,1,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\aSA\seed1@\prediction_surf.png
+3,1,SLFormer_Single(NoSlope),3,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\SLFormer_Single(NoSlope)\seed3@\prediction_surf.png
+3,2,SLFormer(NoSlope),3,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\SLFormer(NoSlope)\seed3@\prediction_surf.png
+3,3,SLFormer_Single,4,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\SLFormer_Single\seed4@\prediction_surf.png
+3,4,SLFormer,3,solution,c:\Users\Dukhwan\Deep learning for PDE\PINNsFORMER_Dukhwan\Transformer_code\evaluation\burgers\SLFormer\seed3@\prediction_surf.png

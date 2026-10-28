@@ -1,0 +1,13 @@
+method: aSA
+seed: 5
+checkpoint: runs\allen_cahn\results_aSA(allen_cahn)\20261027_131705_PINNFourier_new\checkpoints\seed5\last_lbfgs.pth
+relative_l2: 5.502717494965e-01
+mae: 2.041590958834e-01
+rmse: 3.910480439663e-01
+max_error: 1.664173126221e+00
+relative_l2_t0.5: 3.911798894405e-01
+actual_time_t0.5: 5.000000000000e-01
+relative_l2_t0.75: 6.287833452225e-01
+actual_time_t0.75: 7.500000000000e-01
+relative_l2_t1: 7.717962861061e-01
+actual_time_t1: 1.000000000000e+00

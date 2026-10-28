@@ -1,6 +1,6 @@
 method: Conventional
 seed: 1
-checkpoint: runs\results_conventional(allen_cahn)\20260803_180654_PINNFourier_new\checkpoints\seed1\lbfgs_best_loss.pt
+checkpoint: runs\allen_cahn\results_conventional(allen_cahn)\20260803_180654_PINNFourier_new\checkpoints\seed1\lbfgs_best_loss.pth
 relative_l2: 1.510744988918e-01
 mae: 2.848890982568e-02
 rmse: 1.073603779078e-01

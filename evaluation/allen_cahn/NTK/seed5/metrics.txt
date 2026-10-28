@@ -1,6 +1,6 @@
 method: NTK
 seed: 5
-checkpoint: runs\results_NTK(allen_cahn)\20261020_005947_PINNFourier_new\checkpoints\seed5\lbfgs_best_loss.pt
+checkpoint: runs\allen_cahn\results_NTK(allen_cahn)\20261020_005947_PINNFourier_new\checkpoints\seed5\last_lbfgs.pth
 relative_l2: 7.675324380398e-02
 mae: 1.580638065934e-02
 rmse: 5.454433336854e-02

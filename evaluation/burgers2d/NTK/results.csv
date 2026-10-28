@@ -1,6 +1,6 @@
 method,seed,checkpoint,relative_l2,mean_time_relative_l2_error,std_time_relative_l2_error
-NTK,1,runs\results_NTK(burgers2d)\20261018_233603_PINN_new\checkpoints\seed1\last_lbfgs.pth,0.0609733909368515,0.05705096891948155,0.03766146426315605
-NTK,2,runs\results_NTK(burgers2d)\20261018_233603_PINN_new\checkpoints\seed2\last_lbfgs.pth,0.05520801246166229,0.040059918903612664,0.04275001104253152
-NTK,3,runs\results_NTK(burgers2d)\20261018_233603_PINN_new\checkpoints\seed3\last_lbfgs.pth,0.04568994790315628,0.032022143520104386,0.03839156842389679
-NTK,4,runs\results_NTK(burgers2d)\20261018_233603_PINN_new\checkpoints\seed4\last_lbfgs.pth,0.04681745544075966,0.02959940521534355,0.0439271355674177
-NTK,5,runs\results_NTK(burgers2d)\20261018_233603_PINN_new\checkpoints\seed5\last_lbfgs.pth,0.038573652505874634,0.017605304726332958,0.03474070112684756
+NTK,1,runs\burgers2d\results_NTK(burgers2d)\20261018_233603_PINN_new\checkpoints\seed1\last_lbfgs.pth,0.0609733909368515,0.05705096891948155,0.03766146426315605
+NTK,2,runs\burgers2d\results_NTK(burgers2d)\20261018_233603_PINN_new\checkpoints\seed2\last_lbfgs.pth,0.05520801246166229,0.040059918903612664,0.04275001104253152
+NTK,3,runs\burgers2d\results_NTK(burgers2d)\20261018_233603_PINN_new\checkpoints\seed3\last_lbfgs.pth,0.04568994790315628,0.032022143520104386,0.03839156842389679
+NTK,4,runs\burgers2d\results_NTK(burgers2d)\20261018_233603_PINN_new\checkpoints\seed4\last_lbfgs.pth,0.04681745544075966,0.02959940521534355,0.0439271355674177
+NTK,5,runs\burgers2d\results_NTK(burgers2d)\20261018_233603_PINN_new\checkpoints\seed5\last_lbfgs.pth,0.038573652505874634,0.017605304726332958,0.03474070112684756

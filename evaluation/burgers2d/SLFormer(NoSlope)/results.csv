@@ -1,6 +1,6 @@
 method,seed,checkpoint,relative_l2,mean_time_relative_l2_error,std_time_relative_l2_error
-SLFormer(NoSlope),1,runs\results_multi_NoSlope(burgers2d)\20261024_210536_Burgers2DSLFormer_NoSlope_new\checkpoints\seed1\lbfgs_best_loss.pth,0.12431100010871887,0.13266330478446825,0.04254782441015592
-SLFormer(NoSlope),2,runs\results_multi_NoSlope(burgers2d)\20261024_210536_Burgers2DSLFormer_NoSlope_new\checkpoints\seed2\lbfgs_best_loss.pth,0.08552709966897964,0.09053661142076765,0.04510864305482756
-SLFormer(NoSlope),3,runs\results_multi_NoSlope(burgers2d)\20261024_210536_Burgers2DSLFormer_NoSlope_new\checkpoints\seed3\lbfgs_best_loss.pth,0.11549801379442215,0.12651190090747105,0.06365207422189045
-SLFormer(NoSlope),4,runs\results_multi_NoSlope(burgers2d)\20261024_210536_Burgers2DSLFormer_NoSlope_new\checkpoints\seed4\lbfgs_best_loss.pth,0.2817983627319336,0.2606562354734966,0.05014711897934329
-SLFormer(NoSlope),5,runs\results_multi_NoSlope(burgers2d)\20261024_210536_Burgers2DSLFormer_NoSlope_new\checkpoints\seed5\lbfgs_best_loss.pth,0.13055045902729034,0.13848408276126498,0.041153468561867114
+SLFormer(NoSlope),1,runs\burgers2d\results_multi_NoSlope(burgers2d)\20261024_210536_Burgers2DSLFormer_NoSlope_new\checkpoints\seed1\lbfgs_best_loss.pth,0.12431100010871887,0.13266330478446825,0.04254782441015592
+SLFormer(NoSlope),2,runs\burgers2d\results_multi_NoSlope(burgers2d)\20261024_210536_Burgers2DSLFormer_NoSlope_new\checkpoints\seed2\lbfgs_best_loss.pth,0.08552709966897964,0.09053661142076765,0.04510864305482756
+SLFormer(NoSlope),3,runs\burgers2d\results_multi_NoSlope(burgers2d)\20261024_210536_Burgers2DSLFormer_NoSlope_new\checkpoints\seed3\lbfgs_best_loss.pth,0.11549801379442215,0.12651190090747105,0.06365207422189045
+SLFormer(NoSlope),4,runs\burgers2d\results_multi_NoSlope(burgers2d)\20261024_210536_Burgers2DSLFormer_NoSlope_new\checkpoints\seed4\lbfgs_best_loss.pth,0.2817983627319336,0.2606562354734966,0.05014711897934329
+SLFormer(NoSlope),5,runs\burgers2d\results_multi_NoSlope(burgers2d)\20261024_210536_Burgers2DSLFormer_NoSlope_new\checkpoints\seed5\lbfgs_best_loss.pth,0.13055045902729034,0.13848408276126498,0.041153468561867114

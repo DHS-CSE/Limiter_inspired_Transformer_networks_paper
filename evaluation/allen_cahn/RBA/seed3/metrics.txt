@@ -1,6 +1,6 @@
 method: RBA
 seed: 3
-checkpoint: runs\results_rba(allen_cahn)\20260804_013107_PINNFourier_new\checkpoints\seed3\lbfgs_best_loss.pt
+checkpoint: runs\allen_cahn\results_rba(allen_cahn)\20260804_013107_PINNFourier_new\checkpoints\seed3\lbfgs_best_loss.pth
 relative_l2: 7.694487273693e-02
 mae: 1.207845378667e-02
 rmse: 5.468050763011e-02

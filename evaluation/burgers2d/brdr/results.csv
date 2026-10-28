@@ -1,6 +1,6 @@
 method,seed,checkpoint,relative_l2,mean_time_relative_l2_error,std_time_relative_l2_error
-brdr,1,runs\results_brdr(burgers2d)\20261019_001241_PINN_new\checkpoints\seed1\lbfgs_best_loss.pth,0.09584830701351166,0.09792545544249671,0.049591151305697856
-brdr,2,runs\results_brdr(burgers2d)\20261019_001241_PINN_new\checkpoints\seed2\lbfgs_best_loss.pth,0.08784803748130798,0.09227906912565231,0.054609615849563524
-brdr,3,runs\results_brdr(burgers2d)\20261019_001241_PINN_new\checkpoints\seed3\lbfgs_best_loss.pth,0.09369166940450668,0.09814321675470897,0.04884629567964472
-brdr,4,runs\results_brdr(burgers2d)\20261019_001241_PINN_new\checkpoints\seed4\lbfgs_best_loss.pth,0.07652726024389267,0.08167443601858049,0.031109643272901867
-brdr,5,runs\results_brdr(burgers2d)\20261019_001241_PINN_new\checkpoints\seed5\lbfgs_best_loss.pth,0.08271203190088272,0.0890529052842231,0.03503780865080597
+brdr,1,runs\burgers2d\results_brdr(burgers2d)\20261019_001241_PINN_new\checkpoints\seed1\lbfgs_best_loss.pth,0.09584830701351166,0.09792545544249671,0.049591151305697856
+brdr,2,runs\burgers2d\results_brdr(burgers2d)\20261019_001241_PINN_new\checkpoints\seed2\lbfgs_best_loss.pth,0.08784803748130798,0.09227906912565231,0.054609615849563524
+brdr,3,runs\burgers2d\results_brdr(burgers2d)\20261019_001241_PINN_new\checkpoints\seed3\lbfgs_best_loss.pth,0.09369166940450668,0.09814321675470897,0.04884629567964472
+brdr,4,runs\burgers2d\results_brdr(burgers2d)\20261019_001241_PINN_new\checkpoints\seed4\lbfgs_best_loss.pth,0.07652726024389267,0.08167443601858049,0.031109643272901867
+brdr,5,runs\burgers2d\results_brdr(burgers2d)\20261019_001241_PINN_new\checkpoints\seed5\lbfgs_best_loss.pth,0.08271203190088272,0.0890529052842231,0.03503780865080597

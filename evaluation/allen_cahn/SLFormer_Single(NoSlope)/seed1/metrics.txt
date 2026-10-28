@@ -1,6 +1,6 @@
 method: SLFormer_Single(NoSlope)
 seed: 1
-checkpoint: runs\results_single_NoSlope(allen_cahn)\20261024_024240_SLSingleFormerFixedSharpAnalysis_NoSlope_new\checkpoints\seed1\lbfgs_best_loss.pth
+checkpoint: runs\allen_cahn\results_single_NoSlope(allen_cahn)\20261024_024240_SLSingleFormerFixedSharpAnalysis_NoSlope_new\checkpoints\seed1\lbfgs_best_loss.pth
 relative_l2: 1.012570112944e-01
 mae: 3.618016093969e-02
 rmse: 7.195781916380e-02

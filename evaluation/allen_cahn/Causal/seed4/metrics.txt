@@ -1,6 +1,6 @@
 method: Causal
 seed: 4
-checkpoint: runs\results_causal(allen_cahn)\20261024_173020_PINNFourier_new\checkpoints\seed4\lbfgs_best_loss.pth
+checkpoint: runs\allen_cahn\results_causal(allen_cahn)\20261024_173020_PINNFourier_new\checkpoints\seed4\lbfgs_best_loss.pth
 relative_l2: 7.782006263733e-02
 mae: 1.560718566179e-02
 rmse: 5.530245974660e-02
